@@ -15,4 +15,18 @@
 		$newinput = substr($input, 9);
 		header( 'Location: https://www.google.com/maps/place/'.$newinput ) ;	
 	}
+	else if(substr($input, 0, 5)==="open " && strpos($input,'.')===false)
+	{
+		if(strpos($input," ")===true)
+		{
+			$newinput = str_replace(" ", "",$input);
+		}
+		$newinput = substr($input, 5);
+		header( 'Location: http://'.$newinput.'.com') ;	
+	}
+	else if(substr($input, 0, 5)==="open " && strpos($input,'http://')===true)
+	{
+		$newinput = substr($input, 5);
+		header( 'Location: '.$newinput) ;	
+	}
 ?>	
