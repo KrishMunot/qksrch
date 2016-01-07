@@ -34,6 +34,12 @@
 <html>
 	<head>
 		<title>qksrch</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="http://hackgician.net/img/Logo.png">
+		<script src="js/typed.js"></script>
+		<script src="js/jQuery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scrolling.js"></script>
 		
 	</head>
 
