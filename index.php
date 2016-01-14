@@ -44,6 +44,20 @@
 	</head>
 
 	<body>
+	<div class="jumbotron" align="center">
+			<h1>Albert</h1>
+			<form class="form-inline" role="form" method="get" name="inputform">
+				<input type="text" class="form-control" id="exampleInputEmail2" placeholder="Search input" name="input" size="50%">
+				<button type="submit" class="btn btn-default">Search</button>
+			</form>
+			<script>
+  				$(function(){
+      				$(".swag").typed({
+        				strings: ["First sentence.", "Second sentence."],
+        				typeSpeed: 0
+      				});
+  				});
+
 	<!-- WOW.js -->
 		<script type="text/javascript">
 		$("#list").hide();
