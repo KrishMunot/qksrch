@@ -44,6 +44,24 @@
 	</head>
 
 	<body>
+	<!-- WOW.js -->
+		<script type="text/javascript">
+		$("#list").hide();
+		$("#swag").click(function(){
+			$("#list").show();
+		});
+		</script>
+		<script src="js/WOW.js"></script>
+		<script type="text/javascript">new WOW().init();</script>
+		<script type="text/javascript">
+			function validation()
+			{
+				var x = document.forms["inputForm"]["input"].value;
+				alert(x);
+			}
+		</script>
+	</body>
+</html>
 	
 	</body>
 
