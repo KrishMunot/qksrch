@@ -58,6 +58,22 @@
       				});
   				});
 
+  	</script>
+			<h2>Not getting instant answers? See what you can search <span><button id="swag" class="btn btn-default">Click Me</button></span></h2>
+			<div id="list">
+			<h4 id="1">Where is Ann Arbor</h4>
+			<h4 id="2">Define awesome</h4>
+			<h4 id="3">Who is DJ Khaled</h4>
+			<h4 id="4">Where can I find an Oculus VR</h4>
+			<h4 id="5">Open quora.com</h4>
+			<h4 id="6">Open Facebook</h4>
+			<h4 id="7">Play music</h4>
+			<h4 id="8">Search Youtube for Cat videos</h4>
+			<h4 id="9">Go to Google Drive (only Google Products so far, i.e. Classroom, maps, mail, photos etc)</h4>
+			</div>
+			<h4>You can replace Google automatic search in your browser as well! In your browser settings, add a new search engine, and for the name, it's qksrch, for the keyword</h4>
+		</div>
+
 	<!-- WOW.js -->
 		<script type="text/javascript">
 		$("#list").hide();
