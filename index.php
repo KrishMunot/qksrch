@@ -15,6 +15,11 @@
 		$newinput = substr($input, 9);
 		header( 'Location: https://www.google.com/maps/place/'.$newinput ) ;	
 	}
+	else if(substr($input, 0, 14)==="how do i make ")
+	{
+		$newinput = substr($input, 14);
+		header( 'Location: http://instructables.com/howto/'.str_replace(" ","-",$newinputA)) ;	
+	}
 	else if(substr($input, 0, 5)==="open " && strpos($input,'.')===false)
 	{
 		if(strpos($input," ")===true)
