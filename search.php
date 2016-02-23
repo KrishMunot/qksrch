@@ -42,7 +42,7 @@
 	else if(substr($input, 0, 5)==="play ")
 	{
 		$newinput = substr($input, 5);
-		header( 'Location: http://spotify.com') ;	
+		header( 'Location: http://gaana.com') ;	
 	}
 	else if(substr($input, 0, 5)==="open ")
 	{
