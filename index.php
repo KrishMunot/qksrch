@@ -73,7 +73,7 @@
 }
 ?><html>
 	<head>
-		<title>Albert</title>
+		<title>Qksrch</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="shortcut icon" href="http://hackgician.net/img/Logo.png">
 		<script src="js/typed.js"></script>
