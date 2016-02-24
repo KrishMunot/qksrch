@@ -77,8 +77,8 @@
 			<h4 id="9">Go to Google Drive (only Google Products so far, i.e. Classroom, maps, mail, photos etc)</h4>
 			</div>
 			<h4>You can replace Google automatic search in your browser as well! In your browser settings, add a new search engine, and for the name, it's qksrch, for the keyword, qksrch.herokuapp.com, and the URL is http://qksrch.com?input=%s</h4>
-			<h5>Made with <span class="fa fa-heart animated infinite pulse" style="color:red"></span> by Krish Munot</h5></h4>
-		</div>
+			<!--<h5>Made with <span class="fa fa-heart animated infinite pulse" style="color:red"></span> by Krish Munot</h5></h4>
+		</div>-->
 
 	<!-- WOW.js -->
 		<script type="text/javascript">
