@@ -26,7 +26,7 @@
 	else if(substr($input, 0, 14)==="how do i make ")
 	{
 		$newinput = substr($input, 14);
-		header( 'Location: http://instructables.com/howto/'.str_replace(" ","-",$newinputA)) ;
+		header( 'Location: http://instructables.com/howto/'.$newinput) ;
 	}
 	else if(substr($input, 0, 5)==="open " && strpos($input,'.')===false)
 	{
