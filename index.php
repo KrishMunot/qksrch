@@ -16,17 +16,17 @@
 	else if(substr($input, 0, 9)==="where is ")
 	{
 		$newinput = substr($input, 9);
-		header( 'Location: https://www.google.com/maps/place/'.$newinput ) ;	
+		header( 'Location: https://www.google.com/maps/place/'.$newinput ) ;
 	}
 	else if(substr($input, 0, 17)==="where can i find ")
 	{
 		$newinput = substr($input, 17);
-		header( 'Location: http://www.amazon.in/s/ref=nb_sb_ss_i_0_6/191-0136070-8498608?url=search-alias%3Daps&field-keywords='.$newinput ) ;	
+		header( 'Location: http://www.amazon.in/s/ref=nb_sb_ss_i_0_6/191-0136070-8498608?url=search-alias%3Daps&field-keywords='.$newinput ) ;
 	}
 	else if(substr($input, 0, 14)==="how do i make ")
 	{
 		$newinput = substr($input, 14);
-		header( 'Location: http://instructables.com/howto/'.str_replace(" ","-",$newinputA)) ;	
+		header( 'Location: http://instructables.com/howto/'.str_replace(" ","-",$newinputA)) ;
 	}
 	else if(substr($input, 0, 5)==="open " && strpos($input,'.')===false)
 	{
@@ -35,17 +35,17 @@
 			$newinput = str_replace(" ", "",$input);
 		}
 		$newinput = substr($input, 5);
-		header( 'Location: http://'.$newinput.'.com') ;	
+		header( 'Location: http://'.$newinput.'.com') ;
 	}
 	else if(substr($input, 0, 5)==="open " && strpos($input,'http://')===true)
 	{
 		$newinput = substr($input, 5);
-		header( 'Location: '.$newinput) ;	
+		header( 'Location: '.$newinput) ;
 	}
 	else if(substr($input, 0, 5)==="play ")
 	{
 		$newinput = substr($input, 5);
-		header( 'Location: http://gaana.com') ;	
+		header( 'Location: http://youtube.com') ;
 	}
 	else if(substr($input, 0, 5)==="open ")
 	{
@@ -55,12 +55,12 @@
 	else if(substr($input, 0, 7)==="define ")
 	{
 		$newinput = substr($input, 7);
-		header( 'Location: http://merriam-webster.com/dictionary/'.$newinput) ;	
+		header( 'Location: http://merriam-webster.com/dictionary/'.$newinput) ;
 	}
 	else if(substr($input, 0, 13)==="go to google ")
 	{
 		$newinput = substr($input, 13);
-		header( 'Location: http://google.com/'.$newinput) ;	
+		header( 'Location: http://google.com/'.$newinput) ;
 	}
 	else if (substr($input, 0, 19)==="search youtube for ") {
 		$newinput = substr($input, 19);
@@ -68,7 +68,7 @@
 	}
 	else
 	{
-		header( 'Location: http://google.com/search?q='.$input ) ;		
+		header( 'Location: http://google.com/search?q='.$input ) ;
 	}
 }
 ?><html>
