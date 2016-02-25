@@ -23,7 +23,22 @@
 		$newinput = substr($input, 17);
 		header( 'Location: http://www.amazon.in/s/ref=nb_sb_ss_i_0_6/191-0136070-8498608?url=search-alias%3Daps&field-keywords='.$newinput ) ;
 	}
+	else if(substr($input, 0, 17)==="buy ")
+	{
+		$newinput = substr($input, 17);
+		header( 'Location: http://www.amazon.in/s/ref=nb_sb_ss_i_0_6/191-0136070-8498608?url=search-alias%3Daps&field-keywords='.$newinput ) ;
+	}
 	else if(substr($input, 0, 14)==="how do i make ")
+	{
+		$newinput = substr($input, 14);
+		header( 'Location: http://instructables.com/howto/'.$newinput) ;
+	}
+	else if(substr($input, 0, 14)==="how to make ")
+	{
+		$newinput = substr($input, 14);
+		header( 'Location: http://instructables.com/howto/'.$newinput) ;
+	}
+	else if(substr($input, 0, 14)==="help me build ")
 	{
 		$newinput = substr($input, 14);
 		header( 'Location: http://instructables.com/howto/'.$newinput) ;
