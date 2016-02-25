@@ -84,7 +84,7 @@
 
 	<body>
 		<div class="jumbotron" align="center">
-			<h1>Albert</h1>
+			<h1>Qksrch</h1>
 			<form class="form-inline" role="form" method="get" name="inputform">
 				<input type="text" class="form-control" id="exampleInputEmail2" placeholder="Search input" name="input" size="50%">
 				<button type="submit" class="btn btn-default">Search</button>
