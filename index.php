@@ -45,7 +45,7 @@
 	else if(substr($input, 0, 5)==="play ")
 	{
 		$newinput = substr($input, 5);
-		header( 'Location: http://youtube.com') ;
+		header('Location: http://gaana.com/search/songs/'.$newinput) ;
 	}
 	else if(substr($input, 0, 5)==="open ")
 	{
