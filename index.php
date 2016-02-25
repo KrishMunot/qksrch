@@ -50,7 +50,7 @@
 	else if(substr($input, 0, 5)==="open ")
 	{
 		$newinput = substr($input, 5);
-		header( 'Location: http://'.$newinput) ;	
+		header( 'Location: http://'.$newinput) ;
 	}
 	else if(substr($input, 0, 7)==="define ")
 	{
@@ -109,7 +109,7 @@
 			<h4 id="8">Search Youtube for Cat videos</h4>
 			<h4 id="9">Go to Google Drive (only Google Products so far, i.e. Classroom, maps, mail, etc)</h4>
 			</div>
-			<h4>You can replace Google automatic search in your browser as well! In your browser settings, add a new search engine, and for the name, it's Albert Engine, for the keyword, qksrch.herokuapp.com, and the URL is http://qksrch.herokuapp.com?input=%s</h4>
+			<h4>You can replace Google automatic search in your browser as well! In your browser settings, add a new search engine, and for the name, it's Qksrch, for the keyword, qksrch.herokuapp.com, and the URL is http://qksrch.herokuapp.com?input=%s</h4>
 
 		<!-- WOW.js -->
 		<script type="text/javascript">
